@@ -1,0 +1,16 @@
+{
+  "name": "eslint-extend-config-yarn",
+  "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "eslint": "eslint --config eslint.config.mjs src",
+    "eslint-ci1": "eslint --config eslint.config.ci1.mjs src",
+    "eslint-ci2": "eslint --config eslint.config.ci2.mjs src",
+    "eslint-ci3": "eslint --config eslint.config.ci3.mjs src"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "8.38.0"
+  }
+}
